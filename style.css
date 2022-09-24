@@ -1,0 +1,71 @@
+:root {
+  background: url("living-room.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 2%;
+  background-color: rgb(244, 190, 30);
+}
+
+button:hover {
+  background-color: blanchedalmond;
+}
+
+.Modal_container {
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 40%;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  top: 30%;
+  right: 30%;
+  position: absolute;
+  background-color: white;
+  box-shadow: 3px 2px 3px 2px rgb(244, 190, 96);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 350px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(212, 200, 91, 0.667);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 35%;
+  text-align: center;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(236, 54, 54);
+  margin-top: -3%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
